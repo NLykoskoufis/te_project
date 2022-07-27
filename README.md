@@ -5,6 +5,7 @@ https://doi.org/10.1101/2021.12.03.471093
 
 ## Directory structure 
 
+```
 .
 ├── Figures -> *This directory contains all figures and the scripts for generating them.*
 │   ├── Figure1
@@ -64,7 +65,7 @@ https://doi.org/10.1101/2021.12.03.471093
     ├── analysis_SNPinTEs
     ├── analysis_TEgenomeJunction
     └── analysis_multimapped
-
+```
 **analysis_DGE**: This directory contains the script used to perform differential expression analysis of our genes/TEs. 
 **analysis_qtlReplication**: This directory contains all scripts used to replicate our findings in external datasets. 
 **data_covariates**: This directory contains the scripts used to generate the covariates used for residualizing our molecular phenotypes. 
